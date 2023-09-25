@@ -2,158 +2,375 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width initial-scale=1.0">
-
-        <title>Portafolio Daniela Del Valle</title>
+        <title>Home-Ecomerce</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="css/reset">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/bases.css">
+        <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="css/products.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Raleway:wght@300;500;700&display=swap" rel="stylesheet">
         
     </head>
+    <body> 
 
-    <header>
+        <header class="cabecera">
+     
+                <img id="logo-cabecera" class="img-cabecera" alt="Logo" src="/imagenes/Logo-alurageek.png">
+                <input class="input-cabecera" type="search"
+                placeholder="¿Que deseas buscar?">
+                <button class="btn-cabecera" onclick="window.location.href='/home-login.html'">Login</button> 
+                <img class="icono-buscador" src="imagenes/Icono-buscar.png">
+        </header>
 
-        <img src="" alt="">
-        <input type="text">
-        <label for=""></label>
-        <boton></boton>
-
-    </header>
-
-    <body>
         <main>
-            <section class="cabecera">
-                <h1>Febrero promocional</h1>
-                <p>Productos seleccionados con 33% de descuento</p>
-                <botton>Ver descuento</botton>
+
+            <section class="banner">
+                <img alt="banner" src="/imagenes/banner-image.png" class="banner-img" >
+                <div class="banner_textos-conteiner">
+                    <h2 class="banner-titulo">Febrero promocional</h2>
+                    <p class="banner-p">Productos seleccionados con 33% de descuento</p>
+                    <button class="banner-btn" onclick="window.location.href='/products.html'">Ver consolas</button>
+                </div> 
+              
             </section>
 
+            
+            <section class="productos">
+                <div class="productos-conteiner">
+                    <div class="productos-clase">
+                        <p class="titulo-clase-producto">StarWars</p>   
+                        <a class="producto_ver-todo" onclick="window.location.href='/products.html'" href="#">Ver todo ➙</a>
+                    </div>
+                    <div class="productos-lista" data-product>
+
+                            <div class="producto-item">
+                                <img class="producto-img" src="/imagenes/Productos/img1.png">
+                                <h1 class="producto-name">${name}</h1>
+                                <p class="producto-precio">$ ${price}</p>
+                                <a class="producto_ver-producto" href="#" ${id}>Ver producto</a>
+                            </div>
+                            <div class="producto-item">
+                                <img class="producto-img" src="/imagenes/Productos/img2.png">
+                                <h1 class="producto-name">${name}</h1>
+                                <p class="producto-precio">$ ${price}</p>
+                                <a class="producto_ver-producto" href="#" ${id}>Ver producto</a>
+                            </div>
+                            <div class="producto-item">
+                                <img class="producto-img" src="/imagenes/Productos/img3.png">
+                                <h1 class="producto-name">${name}</h1>
+                                <p class="producto-precio">$ ${price}</p>
+                                <a class="producto_ver-producto" href="#" ${id}>Ver producto</a>
+                            </div>
+                            <div class="producto-item">
+                                <img class="producto-img" src="/imagenes/Productos/img4.png">
+                                <h1 class="producto-name">${name}</h1>
+                                <p class="producto-precio">$ ${price}</p>
+                                <a class="producto_ver-producto" href="#" ${id}>Ver producto</a>
+                            </div>
+                            <div  class="producto-item">
+                                <img class="producto-img" src="/imagenes/Productos/img5.png">
+                                <h1 class="producto-name">${name}</h1>
+                                <p class="producto-precio">$ ${price}</p>
+                                <a class="producto_ver-producto" href="#" ${id}>Ver producto</a>
+                            </div>
+                            <div   class="producto-item">
+                                <img class="producto-img" src="/imagenes/Productos/img6.png">
+                                <h1 class="producto-name">${name}</h1>
+                                <p class="producto-precio">$ ${price}</p>
+                                <a class="producto_ver-producto" href="#" ${id}>Ver producto</a>
+                            </div>
+                            
+                    </div>
+
+                    <div class="productos-clase">
+                        <p class="titulo-clase-producto">Consolas</p>   
+                        <a class="producto_ver-todo" onclick="window.location.href='/products.html'" href="#">Ver todo ➙</a>
+
+                    </div>
+                    <div class="productos-lista" data-product>
+
+                            <div class="producto-item">
+                                <img class="producto-img" src="/imagenes/Productos/img7.png">
+                                <h1 class="producto-name">${name}</h1>
+                                <p class="producto-precio">$ ${price}</p>
+                                <a class="producto_ver-producto" href="#" ${id}>Ver producto</a>
+                            </div>
+                            <div class="producto-item">
+                                <img class="producto-img" src="/imagenes/Productos/img8.png">
+                                <h1 class="producto-name">${name}</h1>
+                                <p class="producto-precio">$ ${price}</p>
+                                <a class="producto_ver-producto" href="#" ${id}>Ver producto</a>
+                            </div>
+                            <div class="producto-item">
+                                <img class="producto-img" src="/imagenes/Productos/img9.png">
+                                <h1 class="producto-name">${name}</h1>
+                                <p class="producto-precio">$ ${price}</p>
+                                <a class="producto_ver-producto" href="#" ${id}>Ver producto</a>
+                            </div>
+                            <div class="producto-item">
+                                <img class="producto-img" src="/imagenes/Productos/img10.png">
+                                <h1 class="producto-name">${name}</h1>
+                                <p class="producto-precio">$ ${price}</p>
+                                <a class="producto_ver-producto" href="#" ${id}>Ver producto</a>
+                            </div>
+                            <div  id="producto-5" class="producto-item">
+                                <img class="producto-img" src="/imagenes/Productos/img11.png">
+                                <h1 class="producto-name">${name}</h1>
+                                <p class="producto-precio">$ ${price}</p>
+                                <a class="producto_ver-producto" href="#" ${id}>Ver producto</a>
+                            </div>
+                            <div  id="producto-5" class="producto-item">
+                                <img class="producto-img" src="/imagenes/Productos/img12.png">
+                                <h1 class="producto-name">${name}</h1>
+                                <p class="producto-precio">$ ${price}</p>
+                                <a class="producto_ver-producto" href="#" ${id}>Ver producto</a>
+                            </div>
+                            
+                    </div>
+
+                    <div class="productos-clase">
+                        <p class="titulo-clase-producto">Otros</p>   
+                        <a class="producto_ver-todo" onclick="window.location.href='/products.html'" href="#">Ver todo ➙</a>
+                    </div>
+                    <div class="productos-lista" data-product>
+
+                            <div class="producto-item">
+                                <img class="producto-img" src="/imagenes/Productos/img13.png">
+                                <h1 class="producto-name">${name}</h1>
+                                <p class="producto-precio">$ ${price}</p>
+                                <a class="producto_ver-producto" href="#" ${id}>Ver producto</a>
+                            </div>
+                            <div class="producto-item">
+                                <img class="producto-img" src="/imagenes/Productos/img14.png">
+                                <h1 class="producto-name">${name}</h1>
+                                <p class="producto-precio">$ ${price}</p>
+                                <a class="producto_ver-producto" href="#" ${id}>Ver producto</a>
+                            </div>
+                            <div class="producto-item">
+                                <img class="producto-img" src="/imagenes/Productos/img15.png">
+                                <h1 class="producto-name">${name}</h1>
+                                <p class="producto-precio">$ ${price}</p>
+                                <a class="producto_ver-producto" href="#" ${id}>Ver producto</a>
+                            </div>
+                            <div class="producto-item">
+                                <img class="producto-img" src="/imagenes/Productos/img16.png">
+                                <h1 class="producto-name">${name}</h1>
+                                <p class="producto-precio">$ ${price}</p>
+                                <a class="producto_ver-producto" href="#" ${id}>Ver producto</a>
+                            </div>
+                            <div  id="producto-5" class="producto-item">
+                                <img class="producto-img" src="/imagenes/Productos/img17.png">
+                                <h1 class="producto-name">${name}</h1>
+                                <p class="producto-precio">$ ${price}</p>
+                                <a class="producto_ver-producto" href="#" ${id}>Ver producto</a>
+                            </div>
+                            <div  id="producto-5" class="producto-item">
+                                <img class="producto-img" src="/imagenes/Productos/img18.png">
+                                <h1 class="producto-name">${name}</h1>
+                                <p class="producto-precio">$ ${price}</p>
+                                <a class="producto_ver-producto" href="#" ${id}>Ver producto</a>
+                            </div>
+                            
+                    </div>
+
+                </div>
+                
+
+               
+                        
+              
+                        <!-- <div> -->
+                                <!-- <ul>
+                        
+                            <li>
+                                <img src="" alt="">
+                                <p></p>
+                                <p></p>
+                                <a href=""></a>
+                            </li>
+                          
+                            <li>
+                                <img src="" alt="">
+                                <p></p>
+                                <p></p>
+                                <a href=""></a>
+                            </li>
+
+                            <li>
+                                <img src="" alt="">
+                                <p></p>
+                                <p></p>
+                                <a href=""></a>
+                            </li>
+
+                            <li>
+                                <img src="" alt="">
+                                <p></p>
+                                <p></p>
+                                <a href=""></a>
+                            </li>
+
+                            <li>
+                                <img src="" alt="">
+                                <p></p>
+                                <p></p>
+                                <a href=""></a>
+                            </li>
+
+                            <li>
+                                <img src="" alt="">
+                                <p></p>
+                                <p></p>
+                                <a href=""></a>
+                            </li>
+                            
+                        </ul>
+
+                    </div>
+
+                    <div>Consolas
+                        <p>Ver todo ➙</p>
+                        <ul>
+                            <li>
+                                <img src="" alt="">
+                                <p></p>
+                                <p></p>
+                                <a href=""></a>
+                            </li>
+                            <li>
+                                <img src="" alt="">
+                                <p></p>
+                                <p></p>
+                                <a href=""></a>
+                            </li>
+                            <li>
+                                <img src="" alt="">
+                                <p></p>
+                                <p></p>
+                                <a href=""></a>
+                            </li>
+                            <li>
+                                <img src="" alt="">
+                                <p></p>
+                                <p></p>
+                                <a href=""></a>
+                            </li>
+                            <li>
+                                <img src="" alt="">
+                                <p></p>
+                                <p></p>
+                                <a href=""></a>
+                            </li>
+                            <li>
+                                <img src="" alt="">
+                                <p></p>
+                                <p></p>
+                                <a href=""></a>
+                            </li>
+                        </ul>
+                        
+                    </div>
+
+                    <div>Diversos
+                        <p>Ver todo ➙</p>
+                        <ul>
+                            <li>
+                                <img src="" alt="">
+                                <p></p>
+                                <p></p>
+                                <a href=""></a>
+                            </li>
+
+                            <li>
+                                <img src="" alt="">
+                                <p></p>
+                                <p></p>
+                                <a href=""></a>
+                            </li>
+
+                            <li>
+                                <img src="" alt="">
+                                <p></p>
+                                <p></p>
+                                <a href=""></a>
+                            </li>
+
+                            <li>
+                                <img src="" alt="">
+                                <p></p>
+                                <p></p>
+                                <a href=""></a>
+                            </li>
+
+                            <li>
+                                <img src="" alt="">
+                                <p></p>
+                                <p></p>
+                                <a href=""></a>
+                            </li>
+
+                            <li>
+                                <img src="" alt="">
+                                <p></p>
+                                <p></p>
+                                <a href=""></a>
+                            </li>
+                            
+                        </ul>
+                        
+                    </div>
+                </nav> -->
+         
+
+            </section>
+
+            <section id="contacto-section" class="contacto">
+
+                <div class="conteiner-contacto-lista">
+    
+                    <div >
+                        <img src="/imagenes/Logo-alurageek.png" alt="Logo" class="contacto__logo">
+                    </div>    
+                    <nav>
+                            <ul class="contacto-items">
+                                <li class="contacto-lista-items"><a href="#">Quienes somos</a></li>
+                                <li class="contacto-lista-items"><a href="#">Politicas de privacidad</a></li>
+                                <li class="contacto-lista-items"><a href="#">Programa de fidelidad</a></li>
+                                <li class="contacto-lista-items"><a href="#">Nuestras tiendas</a></li>
+                                <li class="contacto-lista-items"><a href="#">Quiero ser franquiciado</a></li>
+                                <li class="contacto-lista-items"><a href="#">Anuncie aquí</a></li>
+                            </ul>
+                    </nav>
+    
+                </div>           
+    
+    
+                <div class="conteiner-contacto-form">
+                    <p class="contacto-form-titulo">Hable con nosotros</p>
+                    <input class="input" id="contacto-form-input" type="text" placeholder="Nombre">
+                    <input class="input" id="contacto-form-input-mensaje" type="text" placeholder="Escribe tu mensaje">
+                    <button id="btn" class="btn-contacto-form">Enviar mensaje</button>
+                </div>
+             
+                
+    
+            </section>
         </main>
-
-        <section class="productos">
-            <nav>
-                <div>StarWars
-
-                    <ul>
-                    
-                        <li></li>
-                        <img src="" alt="">
-                        <p></p>
-                        <a href=""></a>
-                        <li></li>
-                        <img src="" alt="">
-                        <p></p>
-                        <a href=""></a>
-                        <li></li>
-                        <img src="" alt="">
-                        <p></p>
-                        <a href=""></a>
-                        <li></li>
-                        <img src="" alt="">
-                        <p></p>
-                        <a href=""></a>
-                        <li></li>
-                        <img src="" alt="">
-                        <p></p>
-                        <a href=""></a>
-                        <li></li>
-                        <img src="" alt="">
-                        <p></p>
-                        <a href=""></a>
-                        
-                    </ul>
-
-                </div>
-
-                <div>Consolas
-                    <ul>
-                    
-                        <li></li>
-                        <img src="" alt="">
-                        <p></p>
-                        <a href=""></a>
-                        <li></li>
-                        <img src="" alt="">
-                        <p></p>
-                        <a href=""></a>
-                        <li></li>
-                        <img src="" alt="">
-                        <p></p>
-                        <a href=""></a>
-                        <li></li>
-                        <img src="" alt="">
-                        <p></p>
-                        <a href=""></a>
-                        <li></li>
-                        <img src="" alt="">
-                        <p></p>
-                        <a href=""></a>
-                        <li></li>
-                        <img src="" alt="">
-                        <p></p>
-                        <a href=""></a>
-                        
-                    </ul>
-                    
-                </div>
-
-                <div>Diversos
-                    <ul>
-                    
-                        <li></li>
-                        <img src="" alt="">
-                        <p></p>
-                        <a href=""></a>
-                        <li></li>
-                        <img src="" alt="">
-                        <p></p>
-                        <a href=""></a>
-                        <li></li>
-                        <img src="" alt="">
-                        <p></p>
-                        <a href=""></a>
-                        <li></li>
-                        <img src="" alt="">
-                        <p></p>
-                        <a href=""></a>
-                        <li></li>
-                        <img src="" alt="">
-                        <p></p>
-                        <a href=""></a>
-                        <li></li>
-                        <img src="" alt="">
-                        <p></p>
-                        <a href=""></a>
-                        
-                    </ul>
-                    
-                </div>
-
-            </nav>
-        </section>
-
-        <section class="contacto">
-            <img src="" alt="" class="contacto__logo">
-            <nav>
-                <ul>
-                    <li><a href=""></a>Quienes somos</li>
-                    <li><a href=""></a>Politicas de privacidad</li>
-                    <li><a href=""></a>Programa de fidelidad</li>
-                    <li><a href=""></a>Nuestras tiendas</li>
-                    <li><a href=""></a>Quiero ser franquiciado</li>
-                    <li><a href=""></a>Anuncie aquí</li>
-                </ul>
-            </nav>
-            <p>Hable con nosotros</p>
-            <input type="text"><label for="">Nombre</label>
-            <input type="text"><label for="">Mensaje</label>
-            <button></button>
-
-        </section>
-        
-        <footer>
-            <h1>Desarrollado por Daniela Del Valle</h1>
-            <p>2023</p>
-        </footer>
+        <footer class="footer">
+            <div class="piePagina">
+                <p class="copyright">&copycopyright Daniela Del Valle</p>
+                <p class="copyright">2023</p>
+                <section class="redirecciones">
+                    <img src="/imagenes/github.png.png" alt="Github" id="github" onclick="redireccionarGithub()">
+                    <img src="/imagenes/linkedin.png.png" alt="Linkedin" id="linkedin" onclick="redireccionarLinkedin()">
+                </section>
+            </div>
+    
+        </footer> 
+ 
+        <script src="script/script-products.js"></script>
     </body>
 </html>

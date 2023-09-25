@@ -1,0 +1,125 @@
+/* celular */
+
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    max-width: 100%;
+    height: 34vw;
+    box-sizing: border-box;
+}
+
+.banner-img{
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+}
+
+.banner_textos-conteiner{
+    position: absolute;
+    padding-top: 15%;
+    padding-left: 3%;
+    color: #FFFFFF;
+    box-sizing: border-box;
+}
+
+.banner-titulo{
+    font-size: 0.7em;
+    font-weight: 700;
+    padding-bottom: 0.5em;
+}
+
+.banner-p{
+    font-size: 0.5em;
+    padding-bottom: 0.4em;
+}
+
+.banner-btn{
+    padding: 0.5em;
+    margin-top: 1%;
+    color:#FFFFFF;
+    background-color: var(--color-main-btn);
+    border:none;
+    font-size: 0.3em;
+}
+
+.banner-btn:hover{
+    cursor:pointer;
+}
+
+/* cuepo para tablet */
+
+@media screen and (min-width: 480px){
+
+    .banner{
+        height: 40vw;
+    }
+    
+    .banner_textos-conteiner{
+        padding-top: 19%;
+        padding-left: 6%;
+    } 
+
+    .banner-titulo{
+        font-size: 1.3em;
+    }
+    
+    .banner-p{
+        font-size: 0.8em;
+    }
+    
+    .banner-btn{
+        font-size: 0.75em;
+    }
+}
+
+@media screen and (min-width: 760px){
+
+ 
+    .banner_textos-conteiner{
+        padding-top: 22%;
+        padding-left: 4%;
+    } 
+
+    .banner-titulo{
+        font-size: 2em;
+    }
+    
+    .banner-p{
+        font-size: 1.2em;
+    }
+    
+    .banner-btn{
+        font-size: 0.9em;
+    }
+}
+
+
+/* cuepo para Desktop  */
+
+@media screen and (min-width: 960px){
+    .banner{
+        height: 30vw;
+    }
+
+    .banner_textos-conteiner{
+        padding-top: 14%;
+        padding-left: 3%;
+    } 
+    
+    .banner-titulo{
+        font-size: 2.5em;
+    }
+    
+    .banner-p{
+        font-size: 1em;
+    }
+    
+    .banner-btn{
+        padding: 0.7em;
+    }
+}
+
+
+

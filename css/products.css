@@ -1,0 +1,257 @@
+                                /* seccion productos */
+
+
+/* Desktop */
+
+.productos{
+    width: 100vw;
+    max-width: 100%;
+    background-color: var(--color-section-main)
+
+}
+
+.productos-conteiner{
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.productos-clase{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding-bottom: 2%;
+}
+
+.titulo-clase-producto{
+
+    color:#464646;
+    font-size: 1.3em;
+    font-weight: bold;
+
+}
+
+.producto_ver-todo{
+    font-size: 1.1em;
+    color:#2A7AE4;
+}
+
+.productos-lista{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-bottom: 5%;
+} 
+
+.producto-item{
+    width: calc(16.5% - (2 * 0.5%));
+    margin:0.5%;
+}
+
+
+.producto-img{
+    width: 100%;
+  
+
+}
+
+.producto-name{
+    padding-top: 5%;
+    font-size: 0.9em;
+
+}
+
+.producto-precio{
+    padding-top: 5%;
+    font-size: 0.9em;
+    padding-bottom: 5%;
+    font-weight: bold;
+    color:#464646;
+
+}
+
+.producto_ver-producto{
+    color:#2A7AE4;
+    font-weight: bold;
+    padding-top: 5%;
+    font-size: 1em;
+
+}
+
+
+.productos-textos{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2%;
+    align-items: center;
+}
+
+#texto_todos-los-productos{
+    font-weight: bold;
+    font-size: 2em;
+
+}
+
+
+
+/* cuepo para tablet */
+
+@media screen and (min-width: 480px) and (max-width:960px){
+
+    .productos-clase{
+        display: flex;
+        box-sizing: border-box;
+        justify-content: space-between;
+        padding-bottom: 2%;
+    }
+    
+    .titulo-clase-producto{
+    
+        color:#464646;
+        font-size: 1.3em;
+        font-weight: bold;
+    
+    }
+    
+    .producto_ver-todo{
+        font-size: 1.1em;
+        color:#2A7AE4;
+    }
+    
+    .productos-lista{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        padding-bottom: 5%;
+    } 
+    .producto-item{
+        width: calc(25% - (2 * 1%));
+        margin:1%;
+    }
+    
+    .producto-img{
+        width: 100%;
+      
+    
+    }
+    
+    .producto-name{
+        padding-top: 5%;
+        font-size: 0.9em;
+    
+    }
+    
+    .producto-precio{
+        padding-top: 5%;
+        font-size: 0.9em;
+        padding-bottom: 5%;
+        font-weight: bold;
+        color:#464646;
+    
+    }
+    
+    .producto_ver-producto{
+        color:#2A7AE4;
+        font-weight: bold;
+        padding-top: 5%;
+        font-size: 1em;
+    
+    }
+    
+    #producto-5{
+        display: none;
+    }
+
+    #texto_todos-los-productos{
+        font-weight: bold;
+        font-size: 1.5em;
+    
+    }
+
+}
+
+
+/* cuepo para Celular  */
+
+@media screen and (max-width: 480px){
+
+    
+    .productos-conteiner{
+        max-width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .productos-clase{
+        display: flex;
+        box-sizing: border-box;
+        justify-content: space-between;
+        padding-bottom: 2%;
+    }
+    
+    .titulo-clase-producto{
+        font-size: 0.9em;
+    }
+    
+    .producto_ver-todo{
+        font-size: 0.8em;
+    }
+    
+    .productos-lista{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        padding-bottom: 5%;
+    } 
+    
+    .producto-item{
+        width: calc(50% - (2 * 2%));
+        margin:2%;
+    }
+    
+    .producto-name{
+        padding-top: 5%;
+        font-size: 0.5em;
+    
+    }
+    
+    .producto-precio{
+        padding-top: 5%;
+        font-size: 0.5em;
+        padding-bottom: 5%;
+        font-weight: bold;
+        color:#464646;
+    
+    }
+    
+    .producto_ver-producto{
+        color:#2A7AE4;
+        font-weight: bold;
+        padding-top: 5%;
+        font-size: 0.6em;
+    
+    }
+    
+    #producto-5{
+        display: none;
+    }
+    .productos-textos{
+        display: flex;
+        flex-direction: column;
+        justify-content: inherit;
+        padding-bottom: 2%;
+        align-items: flex-start;
+    }
+    
+
+    #texto_todos-los-productos{
+        font-weight: bold;
+        font-size: 1em;
+    
+    }
+ 
+}

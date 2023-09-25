@@ -1,0 +1,490 @@
+:root{
+    --color-input-serch:#F5F5F5;
+    --color-cabecera-btn:#2A7AE4;
+    --color-main-btn:#2A7AE4;
+    --color-section-main:#F5F5F5;
+    --color-input-login:#FFFFFF;
+    --color-background-input: #FFFFFF;
+    --color-texto-input:#A2A2A2;
+}
+
+*{
+    font-family: 'Raleway', sans-serif;  
+    box-sizing: border-box;
+}
+
+
+#contacto-section{
+    width: 100vw;
+    max-width: 100%;
+    background-color: #EAF2FD;
+    display:flex;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    box-sizing: border-box;
+}
+
+                                                        /* titulos */
+
+/* celular */
+
+.titulo-main{
+    font-size: 1em;
+    color: #464646;
+}
+
+/* estilo para tablet */
+
+@media screen and (min-width: 480px){
+   
+    .titulo-main{
+        font-size: 1.1em;
+    }
+}
+
+/* estilo para Desktop  */
+
+@media screen and (min-width: 960px){
+    .titulo-main{
+        font-size: 1.2em;
+    }
+}
+
+
+
+                                                        /* inputs */
+
+.input{
+    background-color:var(--color-background-input);
+    border: none;
+    border-bottom:1px solid #C8C8C8;
+    color:var(--color-texto-input);
+    padding: 0.5em;
+    margin-bottom: 4%;
+    box-sizing: border-box;
+    font-size: 0.5em;
+}
+
+.input:hover{
+    cursor:pointer;
+}
+.input:focus{
+    outline: none;
+    background-color: var(--color-backgound-input);
+}
+
+                                                            /* botones */
+
+#btn{
+    background-color: #2A7AE4;
+    color:#FFFFFF;
+    padding: 0.5em;
+    margin-top: 2% ;
+    border: none;
+    font-size: 0.5em;
+
+}
+#btn:hover{
+    cursor: pointer;
+}
+
+
+@media screen and (min-width: 480px){
+    .input{
+        font-size: 1em;
+    }
+
+    #btn{
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width: 960px){
+    .input{
+        font-size: 1.1em;
+    }
+
+    #btn{
+        font-size: 1.1em;
+    }
+}
+
+
+                                                        /* cabecera */
+
+/* cabecera celular*/
+
+.cabecera{
+    display: flex;
+    width: 100vw;
+    max-width: 100%;
+    gap: 10px;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 5%;
+    padding-right: 2%;
+    box-sizing: border-box;
+    align-items: center;
+    height: auto;
+}
+
+.input-cabecera{
+display: none;
+}
+
+.btn-cabecera{
+    width: 40vw;
+    margin-left: 10%;
+    max-width: 40%;
+    box-sizing: border-box;
+    color: var(--color-cabecera-btn);
+    border:0.5px solid var(--color-cabecera-btn);
+    background-color: transparent;
+    /* padding-left: 20px; */
+    padding:1%;
+    margin-right: 2%;
+    box-sizing: border-box;
+    font-size: 0.5em;
+    align-items: center;
+
+}
+.btn-cabecera:hover{
+    cursor: pointer;
+}
+
+#btn-cabecera-login{
+    display: none;
+}
+
+#btn-cabecera-login:hover{
+    cursor: pointer;
+}
+
+#logo-cabecera{
+    width: 70vw;
+    max-width: 20%;
+    box-sizing: border-box;
+    margin-left: 5%;
+
+} 
+
+.icono-buscador{
+    width:15px;
+    position:absolute;
+    right: 10%;
+}
+
+
+/* cabecera tablet*/
+@media screen and (min-width: 480px){
+    .cabecera{
+        gap: 20px;
+    }
+
+    .icono-buscador{
+       display:none;
+    }
+
+   
+    .input-cabecera{
+        width: 40vw;
+        max-width: 50%;
+        padding-left: 2%;
+        padding-right: 2%;
+        font-size: 1em;
+        box-sizing: border-box;
+        border-radius: 10px;
+        height: 2em;
+        margin:2%;
+        border: none;
+        background-color: var(--color-input-serch);
+        font-size: 0.75em;
+        display: inherit;
+    }
+
+    .input-cabecera::placeholder{
+        background-color: var(--color-input-serch);
+    
+    }
+    .input-cabecera:focus{
+        outline: none;
+    }
+
+    
+    #logo-cabecera{
+        width: 40vw;
+        max-width: 15%;
+
+    }
+    .btn-cabecera{
+        width: auto;
+        max-width: 30%;
+        font-size: 0.75em;
+    
+    }
+
+}
+
+/* cabecera Desktop */
+@media screen and (min-width: 960px){
+    .cabecera{
+        gap: 30px;
+    }
+    .btn-cabecera{
+        
+        width: 15vw;
+        max-width: 30%;
+        font-size: 1em;
+    
+    }
+
+    .input-cabecera{
+        max-width: 30%;
+        padding-left: 3%;
+        padding-right: 3%;
+        font-size: 1.1em;
+
+    }
+
+
+#btn-cabecera-login{
+    display: none;
+} 
+
+}
+
+
+
+                                                        /* seccion contacto */
+
+/* contacto celular */
+
+.contacto{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.contacto__logo{
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.conteiner-contacto-lista{
+width: 75%;
+align-items: center;
+display: flex;
+flex-direction: column;
+margin-left: 3%;
+box-sizing: border-box;
+
+}
+.contacto-items{
+    text-align: center;
+    padding-bottom: 10%;
+    font-size: 0.8em;
+    max-width: 100%;  
+}
+
+.contacto-lista-items{
+    padding-top: 8%;
+    width: 100%;
+    max-width: 100%;
+    color:#464646;
+    box-sizing: border-box;
+}
+
+.conteiner-contacto-form{
+    display:flex;
+    flex-direction: column;
+    width: 85%;
+    margin-left: 5%;
+    box-sizing: border-box;
+}
+.contacto-form-titulo{
+    padding-top: 5%;
+    padding-bottom: 3%;
+    font-size: 0.9em;
+    font-weight: bold;
+    color:#464646;
+
+}
+
+.btn-contacto-form{
+    width: 45%;
+}
+
+#contacto-form-input{
+    border-radius: 5px;
+    padding:3%;
+    box-sizing: border-box;
+
+}
+#contacto-form-input-mensaje{
+    border-radius: 5px;
+    padding-bottom: 15%;
+    box-sizing: border-box;
+
+}  
+
+/* contacto tablet */
+
+@media screen and (min-width: 480px){
+
+    .contacto{
+        align-items: normal;
+        flex-direction: inherit;
+    }
+    .contacto__logo{
+        max-width: 90%;
+    }
+    .conteiner-contacto-lista{
+    width: 40%;  
+    }
+
+    .contacto-items{
+        text-align: inherit;
+        font-size: 0.8em;
+    }
+
+    .conteiner-contacto-form{
+        width: 45%;
+        margin-left: 5%;
+    }
+    
+    .contacto-form-titulo{
+        font-size: 0.8em;
+    }
+    
+
+    
+    .btn-contacto-form{
+        width: 40%;
+    }
+}
+
+/* contacto desktop */
+
+@media screen and (min-width: 960px){
+
+    .contacto{
+        padding-left: 10%;
+        align-items: center;
+    }
+
+    .contacto__logo{
+        max-width: 100%;
+        max-width: (30%);
+        margin-right: 10%;
+       
+    }
+  
+    .conteiner-contacto-lista{
+    width: 45%;
+    gap:10%;
+    flex-direction: inherit;
+    align-items: flex-start;  
+    }
+
+
+    .contacto-items{
+        text-align: inherit;
+        font-size: 1.3em;
+    }
+
+    .conteiner-contacto-form{
+        width: 40%;
+        max-width: 90%;
+        margin-left: 5%;
+        margin-right: 2%;
+        justify-content: center;
+    }
+
+    .contacto-form-titulo{
+        font-size: 1.5em;
+    }
+    
+    .btn-contacto-form{
+        width: 40%;
+    }
+}
+
+
+
+                                                                    /* footer */
+
+.footer{
+    width: 100vw;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.piePagina{
+    width: 100%;
+    max-width: 100%;
+   box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.2em; 
+    align-items: center;
+    padding-top: 10px;
+}
+
+.copyright{
+    justify-content: center;
+    font-weight: bolder;
+    color:#A2A2A2; 
+    font-size: 0.3em;
+    padding-top: 0.5em;
+    font-family: 'Raleway', sans-serif;
+ 
+}
+
+.redirecciones{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#github{
+    cursor:pointer;
+    width: 10%;
+    margin-right: 5%;
+}
+#linkedin{
+    cursor:pointer;
+    width: 10%;
+}
+
+/* footer tablet */
+
+@media screen and (min-width: 480px){
+    .copyright{
+        font-size: 0.8em;
+    }
+    
+    #github{
+        width: 10%;
+    }
+    #linkedin{
+        width: 10%;
+    }
+}
+
+/* footer Desktop */
+
+@media screen and (min-width: 480px){
+    .copyright{
+        font-size: 1em;
+    }
+    
+    #github{
+        width: 8%;
+    }
+    #linkedin{
+        width: 8%;
+    }
+}
+

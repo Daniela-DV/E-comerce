@@ -1,0 +1,159 @@
+{
+    "tipoDeProductos":[
+        {
+            "nombre":"StarWars",
+            "productos": [
+            
+                    { "name":"Taza Starwars" ,
+                    "imageUrl":"/imagenes/Productos/img1.png",
+                    "price": "500",
+                    "id":"1",
+                    "descripcion":""
+                    },
+                    { "name":"Darth vader" ,
+                    "imageUrl":"/imagenes/Productos/img2.png",
+                    "price": "500",
+                    "id":"1",
+                    "descripcion":""
+                    },
+                    { "name":"Yoda" ,
+                    "imageUrl":"/imagenes/Productos/img3.png",
+                    "price": "500",
+                    "id":"1",
+                    "descripcion":""
+                    },
+                    { "name":"Figura Star Wars" ,
+                    "imageUrl":"/imagenes/Productos/img4.png",
+                    "price": "500",
+                    "id":"1",
+                    "descripcion":""
+                    },
+                    { "name":"Baby Yoda" ,
+                    "imageUrl":"/imagenes/Productos/img5.png",
+                    "price": "500",
+                    "id":"1",
+                    "descripcion":""
+                    },
+                    { "name":"Figura Darth vader" ,
+                    "imageUrl":"/imagenes/Productos/img6.png",
+                    "price": "500",
+                    "id":"1",
+                    "descripcion":""
+                    },
+            
+                    { "name":"" ,
+                    "imageUrl":"",
+                    "price": "",
+                    "id":"",
+                    "descripcion":""
+                    }
+               
+                ]
+            },
+
+           "nombre":"consolas",
+           "productos": [
+           
+                   { "name":"Mando Xbox" ,
+                   "imageUrl":"/imagenes/Productos/img7.png",
+                   "price": "500",
+                   "id":"1",
+                   "descripcion":""
+                   },
+                   { "name":"PS5" ,
+                   "imageUrl":"/imagenes/Productos/img8.png",
+                   "price": "500",
+                   "id":"1",
+                   "descripcion":""
+                   },
+                   { "name":"Nintendo" ,
+                   "imageUrl":"/imagenes/Productos/img9.png",
+                   "price": "500",
+                   "id":"1",
+                   "descripcion":""
+                   },
+                   { "name":"Nintendo Switch" ,
+                   "imageUrl":"/imagenes/Productos/img10.png",
+                   "price": "500",
+                   "id":"1",
+                   "descripcion":""
+                   },
+                   { "name":"Otra" ,
+                   "imageUrl":"/imagenes/Productos/img11.png",
+                   "price": "500",
+                   "id":"1",
+                   "descripcion":""
+                   },
+                   { "name":"Tetris" ,
+                   "imageUrl":"/imagenes/Productos/img12.png",
+                   "price": "500",
+                   "id":"1",
+                   "descripcion":""
+                   },
+           
+                   { "name":"" ,
+                   "imageUrl":"",
+                   "price": "",
+                   "id":"",
+                   "descripcion":""
+                   }
+              
+                ],
+            }
+
+          "nombre":"Otras",
+           "productos": [
+           
+                   { "name":"RemeraChina" ,
+                   "imageUrl":"/imagenes/Productos/img13.png",
+                   "price": "500",
+                   "id":"1",
+                   "descripcion":""
+                   },
+                   { "name":"Sonic" ,
+                   "imageUrl":"/imagenes/Productos/img14.png",
+                   "price": "500",
+                   "id":"1",
+                   "descripcion":""
+                   },
+                   { "name":"Otra" ,
+                   "imageUrl":"/imagenes/Productos/img15.png",
+                   "price": "500",
+                   "id":"1",
+                   "descripcion":""
+                   },
+                   { "name":"Remera Otra" ,
+                   "imageUrl":"/imagenes/Productos/img16.png",
+                   "price": "500",
+                   "id":"1",
+                   "descripcion":""
+                   },
+                   { "name":"Pikachu" ,
+                   "imageUrl":"/imagenes/Productos/img17.png",
+                   "price": "500",
+                   "id":"1",
+                   "descripcion":""
+                   },
+                   { "name":"Tetris" ,
+                   "imageUrl":"/imagenes/Productos/img18.png",
+                   "price": "500",
+                   "id":"1",
+                   "descripcion":""
+                   },
+           
+                   { "name":"" ,
+                   "imageUrl":"",
+                   "price": "",
+                   "id":"",
+                   "descripcion":""
+                   }
+              
+                ]
+            }
+        }
+       
+    ]
+
+    
+}
+    
